@@ -1,12 +1,26 @@
-*.class
+Package SelkerCarInsuranceCalc{
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+Import Java.util.Scanner;
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+  public class SelkerCarInsuranceCalc{
+  
+    public static void main(strings, args[]){
+      Scanner userInput = new Scanner (System.in);
+      int liabilityCost = 250;
+      //Recall Methods
+      
+      public String getExplaination{
+      System.out.println("This programs primary function is to inform people how much their insurance would be based on these key factors:");
+      System.out.println("The orignial cars value, the car's age, and primary drivers gender.");
+      }
+      
+      public static getCarAge(carModel, carYear){
+      int currentYear = 2016;
+      int carYear = userInput.nextInt();
+      int calcAge = currentYear - carYear;
+        Return calcAge;
+        }
+        
+      }
+    }
+  }
